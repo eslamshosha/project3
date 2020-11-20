@@ -548,3 +548,97 @@ body {
     float: right;
 }
 /*end footer*/
+
+/*media query*/
+
+@media screen and (max-width: 766px) {
+    .header .navbar .links {
+        display: none;
+    }
+    .header .navbar {
+        transform: translateX(30%);
+    }
+
+    .header .navbar .logo {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    .features .box {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        padding: 15px;
+    }
+
+    /*////////////// الشاشه جايه يمين عشانهم*/
+    .subscribe form {
+        width: 100%;
+    }
+
+    .subscribe form input[type="email"] {
+        padding: 10px;
+        width: 280px;
+        margin-bottom: 15px;
+    }
+
+    .subscribe form button {
+        width: 130px;
+    }
+
+    .our-work .item-box .item {
+        float: none;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .our-team .the-team .person {
+        float: none;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .contact form {
+        width: 300px;
+    }
+
+    .contact form input[type="text"],
+    .contact form input[type="email"] {
+        width: 100%;
+        float: none;       
+    }
+    .contact form input[type="email"] {
+        margin-bottom: 10px;
+    }
+
+    .contact form .info {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .contact p {
+        padding: 15px;
+        margin-top: -10px;
+    }
+
+    .contact form .info button {
+        float: none;
+        width: 130px;
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 30%;
+    }
+
+    .contact form .info .form-icon {
+        float: none;  
+    }
+
+    .footer .copyright,
+    .footer .design {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    
+}
