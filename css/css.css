@@ -1,5 +1,6 @@
 body {
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
+    
 }
 * {
     box-sizing: border-box; 
@@ -106,7 +107,7 @@ body {
 }
 
 .header .buttons button {
-    background: transparent;
+    background-color: #fff;
     padding: 10px 0;
     width: 180px;
     font-size: 14px;
@@ -136,7 +137,7 @@ body {
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    line-height: 32px;
+    line-height: 38px;
     cursor: pointer;
 }
 
@@ -270,8 +271,8 @@ body {
 }
 
 .our-work .item-box .item img {
-    height: 403px;
-    width: 403px;
+    height: 380px;
+    width: 280px;
     border-radius: 10px;
 }
 
@@ -283,7 +284,7 @@ body {
     margin-bottom: 12px;
     border-radius: 10px;
     position: relative;
-    height: 403px;
+    height: 380px;
 }
 .our-work .item-box .item:hover .over {
     display: block;
@@ -556,13 +557,21 @@ body {
         display: none;
     }
     .header .navbar {
-        transform: translateX(30%);
+        text-align: center;
     }
 
     .header .navbar .logo {
         width: 100%;
         text-align: center;
         float: none;
+    }
+
+    .header .buttons button {
+        margin-bottom: 10px;
+    }
+
+    .header .arrow {
+        bottom: -22px; 
     }
 
     .features .box {
@@ -591,12 +600,14 @@ body {
         float: none;
         width: 100%;
         margin: 10px;
+        margin-left: 0;
     }
+    
 
     .our-team .the-team .person {
         float: none;
         width: 100%;
-        margin: 10px;
+        padding: 10px;
     }
 
     .contact form {
@@ -610,6 +621,10 @@ body {
     }
     .contact form input[type="email"] {
         margin-bottom: 10px;
+    }
+
+    .contact form textarea {
+        margin-top: 10px;
     }
 
     .contact form .info {
@@ -626,12 +641,13 @@ body {
         float: none;
         width: 130px;
         display: block;
-        margin-bottom: 10px;
-        margin-left: 30%;
+        margin: auto;
     }
 
     .contact form .info .form-icon {
-        float: none;  
+        float: none;
+        display: block;
+        margin-top: 15px;  
     }
 
     .footer .copyright,
